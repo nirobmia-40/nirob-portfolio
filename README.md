@@ -99,3 +99,7 @@ The contact form in `components/sections/Contact.tsx` is equipped with client-si
 - **Option A (Formspree)**: Create a form at [formspree.io](https://formspree.io) and post the form payload to your form endpoint.
 - **Option B (Resend)**: Create an API route `app/api/contact/route.ts` using the `resend` npm package to deliver incoming messages straight to `nirobmia2026@gmail.com`.
 - **Direct Mail**: Users can already click the "Open Mail" button or copy `nirobmia2026@gmail.com` with one click.
+
+## Hosting
+
+Production deployments are managed through Vercel from the `main` branch. The project domain is [nirob-portfolio-ten.vercel.app](https://nirob-portfolio-ten.vercel.app).
