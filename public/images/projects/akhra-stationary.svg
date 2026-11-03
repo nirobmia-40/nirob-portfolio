@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F4EE" />
+      <stop offset="100%" stop-color="#EAE3D8" />
+    </linearGradient>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#3B2A23" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad3)" />
+  
+  <g filter="url(#shadow3)">
+    <!-- Storefront Box -->
+    <rect x="180" y="75" width="440" height="350" rx="16" fill="#FDFCF9" stroke="#D8CABB" stroke-width="2" />
+    
+    <!-- Header -->
+    <rect x="180" y="75" width="440" height="52" rx="16" fill="#EAE3D8" />
+    <text x="210" y="107" font-family="serif" font-size="16" font-weight="bold" fill="#2B211C">AKHRA STATIONARY</text>
+    <rect x="520" y="90" width="75" height="22" rx="11" fill="#604536" />
+    <text x="557" y="105" font-family="sans-serif" font-size="10" font-weight="600" fill="#F7F4EE" text-anchor="middle">COMMERCE</text>
+    
+    <!-- Items Display -->
+    <!-- Notebook Mock -->
+    <rect x="220" y="150" width="160" height="210" rx="8" fill="#3B2A23" />
+    <rect x="220" y="150" width="24" height="210" rx="4" fill="#2B211C" />
+    <line x1="260" y1="190" x2="350" y2="190" stroke="#B58B68" stroke-width="2" />
+    <line x1="260" y1="210" x2="330" y2="210" stroke="#B58B68" stroke-width="1.5" />
+    <circle cx="300" cy="280" r="22" fill="#604536" />
+    <text x="300" y="286" font-family="serif" font-size="14" font-weight="bold" fill="#F7F4EE" text-anchor="middle">A</text>
+    
+    <!-- Right side: Products & Metrics -->
+    <rect x="410" y="150" width="180" height="95" rx="10" fill="#F7F4EE" stroke="#EAE3D8" stroke-width="1.5" />
+    <text x="430" y="180" font-family="sans-serif" font-size="11" font-weight="bold" fill="#756D65">PRODUCT SOURCING</text>
+    <text x="430" y="205" font-family="serif" font-size="18" font-weight="bold" fill="#2B211C">Curated Quality</text>
+    <text x="430" y="228" font-family="sans-serif" font-size="10" fill="#8B654E">Premium paper & tools</text>
+    
+    <rect x="410" y="260" width="180" height="100" rx="10" fill="#F7F4EE" stroke="#EAE3D8" stroke-width="1.5" />
+    <text x="430" y="290" font-family="sans-serif" font-size="11" font-weight="bold" fill="#756D65">USER EXPERIENCE</text>
+    <text x="430" y="315" font-family="serif" font-size="18" font-weight="bold" fill="#2B211C">Order Simplicity</text>
+    <text x="430" y="338" font-family="sans-serif" font-size="10" fill="#8B654E">Seamless student buying</text>
+  </g>
+</svg>
