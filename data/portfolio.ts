@@ -100,12 +100,8 @@ export const skillCategories: SkillCategory[] = [
     category: "Web Development",
     description: "Building responsive, modern, and accessible web interfaces.",
     skills: [
-      { name: "HTML5 / Semantic Web", level: "Core" },
-      { name: "Modern CSS / Tailwind", level: "Core" },
-      { name: "JavaScript (ES6+)", level: "Core" },
-      { name: "React / Next.js", level: "Practical" },
-      { name: "Responsive UI Architecture", level: "Practical" },
-      { name: "Git & Version Control", level: "Practical" },
+      { name: "Python", level: "Exploring" },
+      { name: "Machine Learning", level: "Exploring" },
     ],
   },
   {
